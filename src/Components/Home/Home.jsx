@@ -51,7 +51,7 @@ const Home = () => {
               <Route path="/edit-product/:id" element={<EditProduct />} />
 
               {/* Users */}
-              <Route path="/all-users" element={<AllUsers />} />
+              <Route path="/all-query" element={<AllUsers />} />
 
               {/* Voucher Routes */}
               <Route path="/all-voucher" element={<AllVoucher />} />

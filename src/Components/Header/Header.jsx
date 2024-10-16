@@ -27,7 +27,7 @@ const Header = () => {
             </div>
           </div>
           <div className="left">
-            <a href="" target="_blank">
+            <a href="https://www.shaheenarts.in/" target="_blank">
               <i class="fa-solid fa-globe"></i>
               Go To Website
             </a>
@@ -46,9 +46,9 @@ const Header = () => {
             {/* <li><Link to="/all-tags" onClick={handletoggleBtn}> <i class="fa-solid fa-tag"></i> Manage Tags</Link></li>
             <li><Link to="/all-banners" onClick={handletoggleBtn}> <i class="fa-regular fa-images"></i> Manage Banners</Link></li>
             <li><Link to="/all-shop-banners" onClick={handletoggleBtn}> <i class="fa-brands fa-unsplash"></i> Manage Shop Banners</Link></li>
-            <li><Link to="/all-voucher" onClick={handletoggleBtn}> <i class="fa-brands fa-cc-discover"></i> Manage Voucher</Link></li>
-            <li><Link to="/all-users" onClick={handletoggleBtn}> <i class="fa-solid fa-user"></i> All Users</Link></li>
-            <li><Link to="/all-orders" onClick={handletoggleBtn}> <i class="fa-solid fa-truck-arrow-right"></i> Manage Orders</Link></li> */}
+            <li><Link to="/all-voucher" onClick={handletoggleBtn}> <i class="fa-brands fa-cc-discover"></i> Manage Voucher</Link></li>  */}
+            <li><Link to="/all-query" onClick={handletoggleBtn}> <i class="fa-solid fa-user"></i> All Querys</Link></li>
+            {/* <li><Link to="/all-orders" onClick={handletoggleBtn}> <i class="fa-solid fa-truck-arrow-right"></i> Manage Orders</Link></li> */}
             
             <button className="logout mb-5" onClick={handleLogout}>
               Log Out <i className="fa-solid fa-right-from-bracket"></i>
