@@ -84,7 +84,7 @@ const AllProduct = () => {
               {products.map((product, index) => (
                 <tr key={product._id}>
                   <th scope="row">{index + 1}</th>
-                  <td>{product.categoryName.categoryName}</td>
+                  <td>{product?.categoryName?.categoryName}</td>
                   <td>{product.productName}</td>
                   <td>
                     <img
